@@ -1,0 +1,4 @@
+com.pzt.rpccore.serializer.JdkSerializer
+com.pzt.rpccore.serializer.JsonSerializer
+com.pzt.rpccore.serializer.HessianSerializer
+com.pzt.rpccore.serializer.KryoSerializer

@@ -1,0 +1,8 @@
+pzt:
+  rpc:
+    name: "pzt yml"
+    version: 2.2.2
+    serializer: com.pzt.rpccore.serializer.JsonSerializer
+#    retryStrategy: com.pzt.rpccore.fault.retry.ExponentRetryStrategy
+    registryConfig:
+      address: http://127.0.0.1:2379

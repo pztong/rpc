@@ -1,0 +1,2 @@
+com.pzt.rpccore.fault.tolerant.FailSafeTolerantStrategy
+com.pzt.rpccore.fault.tolerant.FailBackTolerantStrategy

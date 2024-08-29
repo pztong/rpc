@@ -1,0 +1,11 @@
+server:
+  port: 8100
+pzt:
+  rpc:
+    name: "pzt yml"
+    version: 2.2.2
+    serverHost: localhost
+    serverPort: 8888
+
+    registryConfig:
+      address: http://127.0.0.1:2379

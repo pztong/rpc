@@ -1,0 +1,11 @@
+server:
+  port: 8111
+pzt:
+  rpc:
+    name: "pzt yml"
+    version: 2.2.2
+#    serializer: com.pzt.rpccore.serializer.JdkSerializer
+    serializer: com.pzt.rpccore.serializer.JsonSerializer
+    loaderBalance: com.pzt.rpccore.loadbalance.HashCircleLoaderBalance
+    registryConfig:
+      address: http://127.0.0.1:2379
